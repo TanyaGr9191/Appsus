@@ -1,0 +1,14 @@
+.note-header {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #cacaca;
+    border-bottom: 1px solid #cacaca;
+    height: 65px;
+}
+
+.note-header .logo {
+    display: flex;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+}

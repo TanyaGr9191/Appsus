@@ -1,0 +1,48 @@
+.todo-list button {
+    color: #292929;
+    cursor: pointer;
+}
+
+.todo-list input[type=text],
+#todo-list-remove-btn,
+#todo-list-add-btn {
+    border: none;
+    background-color: transparent;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.todo-list input[type=text]:focus {
+    outline: none;
+}
+
+.todo-list ul {
+    list-style: none;
+}
+
+#todo-list-title,
+#todo-list-add-btn {
+    margin-left: 40px;
+    font-size: 16px;
+}
+
+#todo-list-title {
+    margin-top: 20px;
+}
+
+#todo-list-add-btn {
+    margin-bottom: 20px;
+}
+
+/* Edit todo list */
+
+.note-edit #todo-list-title {
+    font-size: 20px;
+}
+
+.note-edit ul input {
+    font-size: 16px;
+}
+
+.note-edit #todo-list-add-btn {
+    margin: 0;
+}

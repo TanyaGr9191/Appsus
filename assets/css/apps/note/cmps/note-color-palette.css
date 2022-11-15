@@ -1,0 +1,80 @@
+/* class in note-preview component */
+.color-palette-dropdown {
+    display: inline;
+    position: relative;
+}
+
+.color-palette-menu {
+    position: absolute;
+    z-index: 50;
+    top: 40px;
+    left: 10px;
+    list-style: none;
+    background-color: white;
+    border: 1px solid #cacaca;
+    border-radius: 8px;
+    padding: 2px;
+    margin: 0;
+}
+
+.color-palette-menu li {
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+.color-palette-menu li:hover {
+    border: 1px solid #5f5e5e;
+}
+
+/* color palette */
+
+.bg-white {
+    border: 1px solid #cacaca;
+    background-color: white;
+}
+
+.bg-red {
+    background-color: #f28b82;
+}
+
+.bg-orange {
+    background-color: #fbbc04;
+}
+
+.bg-yellow {
+    background-color: #fff475;
+}
+
+.bg-green {
+    background-color: #ccff90;
+}
+
+.bg-teal {
+    background-color: #a7ffeb;
+}
+
+.bg-blue {
+    background-color: #cbf0f8;
+}
+
+.bg-dark-blue {
+    background-color: #aecbfa;
+}
+
+.bg-purple {
+    background-color: #d7aefb;
+}
+
+.bg-pink {
+    background-color: #fdcfe8;
+}
+
+.bg-brown {
+    background-color: #e6c9a8;
+}
+
+.bg-grey {
+    background-color: #e8eaed;
+}

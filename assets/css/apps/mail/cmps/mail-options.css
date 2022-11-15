@@ -1,0 +1,87 @@
+.option-list {
+    background-color: #f6f8fc;
+    flex: 1;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-right: 15px;
+    width: 250px;
+}
+
+.option-list ul {
+    position: absolute;
+    width: 100%;
+    top: 50px;
+    list-style: none;
+    margin: 0;
+    padding-right: 0;
+    padding-left: 0;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.option-list ul li {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 8px;
+    width: 90%;
+    display: flex;
+    flex: 1;
+}
+
+.option-list .status-amount {
+    font-weight: 700;
+
+}
+
+.option-list ul li:hover {
+    background-color: #dadce0;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+}
+
+.option-selected {
+    background-color: #d3e3fd;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+}
+
+.option-list ul li span {
+    /* flex: 4; */
+}
+
+.option-list ul li i {
+    padding: 5px;
+}
+
+.btn-mail-compose {
+    display: flex;
+    justify-content: space-between;
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    background-color: #c2e7ff;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    border: none;
+    width: 120px;
+}
+
+.btn-mail-compose i,
+span {
+    padding: 5px;
+}
+
+.btn-mail-compose:hover {
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
+}

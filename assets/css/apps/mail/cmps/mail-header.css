@@ -1,0 +1,17 @@
+.mail-header{
+    background-color: #f6f8fc;
+}
+
+.mail-header-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    background-color: #f6f8fc;
+}
+
+.mail-header-searchbar {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #eef3fc;
+}

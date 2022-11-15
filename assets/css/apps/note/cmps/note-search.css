@@ -1,0 +1,24 @@
+.note-search {
+    position: relative;
+    max-width: 500px;
+    margin: 0;
+}
+
+.note-search .fa-magnifying-glass {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    color: #6e6e6e;
+}
+
+.note-search input[type=search] {
+    background-color: #f3f3f3;
+    border: none;
+    border-radius: 8px;
+    width: 400px;
+    height: 48px;
+    margin: 8px;
+    padding-left: 50px;
+    max-width: 500px;
+    min-height: 48px;
+}

@@ -1,0 +1,60 @@
+.note-preview {
+    position: relative;
+    border: 1px solid #cacaca;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    padding: 10px;
+    padding-bottom: 30px;
+    min-width: 200px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.note-preview:hover {
+    box-shadow: 6px 7px 8px -5px rgba(0,0,0,0.22);
+}
+
+.note-preview ul {
+    text-align: left;
+}
+
+.note-preview img {
+    width: 150px;
+    margin: 5px;
+}
+
+.note-preview .pin-note {
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+.note-preview button {
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+    color: #292929;
+    cursor: pointer;
+    padding: 0 20px;
+}
+
+.note-preview button:hover {
+    color: #29292991;
+}
+
+.note-preview .edit {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+
+.note-preview:hover .pin-note,
+.note-preview:hover .edit {
+    display: block;
+}
+
+.note-preview .done {
+    text-decoration: line-through;
+}

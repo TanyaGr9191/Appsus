@@ -1,0 +1,41 @@
+header {
+    background-color: rgb(143, 37, 192);
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+.app-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8px;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app-header img {
+    width: 60px;
+    filter: invert(1);
+}
+
+.app-header .logo-container {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    margin: .5em;
+}
+
+nav a:active {
+    color: purple;
+}
+
+nav a.active {
+    color: #000;
+    font-weight: bold;
+    text-decoration: overline;
+}
+
+nav a:hover {
+    color: #000;
+}

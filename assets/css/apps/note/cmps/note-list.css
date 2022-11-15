@@ -1,0 +1,10 @@
+.note-list-container {
+    margin: 0 10px;
+    color: #292929;
+}
+
+.note-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

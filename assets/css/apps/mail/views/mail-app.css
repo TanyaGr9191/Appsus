@@ -1,0 +1,15 @@
+/* Cmps */
+
+@import '../cmps/mail-list.css';
+@import '../cmps/mail-options.css';
+
+.mail-container {
+    display: flex;
+    border-radius: 20px;
+    min-height: calc(100vh - 142px);
+}
+
+.mail-header {
+    padding: 10px;
+    background-color: #f6f8fc;
+}

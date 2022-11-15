@@ -1,0 +1,25 @@
+.mail-details {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.mail-details-header{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid grey;
+}
+
+.mail-details-body{
+    display: flex;
+    padding: 10px;
+    padding-inline-start: 0;
+    padding-inline-end: 0;
+    min-height: 100%;
+    flex: 1;
+}
+
+.mail-details-body span{
+    display: flex;
+    flex: 1;
+}
